@@ -12,8 +12,8 @@ include __DIR__ . '/image.php';
 </head>
 <body>
 	<?php foreach ($images as $key => $image){ ?>
-	<a href="<?php echo 'http://localhost/sprint_f/lesson_3/' . $image; ?><?php echo '?id=' . $key ?>" >
-	<img  src="<?php echo 'http://localhost/sprint_f/lesson_3/' . $image;  ?>"></a><?php  } ?>
+	<a href="<?php echo 'http://localhost/sprint_f/lesson_3/gallery/' . $image; ?><?php echo '?id=' . $key ?>" >
+	<img  src="<?php echo 'http://localhost/sprint_f/lesson_3/gallery/' . $image;  ?>"></a><?php  } ?>
 </form>
 </body>
 </html>

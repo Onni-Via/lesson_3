@@ -1,6 +1,4 @@
 <?php
-include __DIR__ . '/calculator.php';
-
 assert(calaculator(5,16,'plus'), 21);
 assert(calaculator(5,5,'multply'), 25);
 assert(calaculator(1,5,'divide'), -0.5);
@@ -24,4 +22,4 @@ function calculator($number1, $number2, $operation)
             break;
     }
 }
-return calculator($number1, $number2, $operation);
+
