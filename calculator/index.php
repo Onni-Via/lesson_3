@@ -1,6 +1,6 @@
 <?php
 
-include __DIR__ . '/calculator.php';
+include __DIR__ . '/function.php';
 
 ?>
 <!DOCTYPE HTML>
