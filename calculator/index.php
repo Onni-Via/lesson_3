@@ -3,7 +3,6 @@
 include __DIR__ . '/calculator.php';
 
 ?>
-
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -12,14 +11,14 @@ include __DIR__ . '/calculator.php';
 </head>
 <body>
 <form method="get">
-  Число 1: <input type="text" name="number1" value="<?php echo $number1 ?>">
+  Число 1: <input type="text" name="number1" value="<?php echo $number1; ?>">
   <select name="operation">
     <option value="plus">+</option>
     <option value="minus">-</option>
     <option value="multply">*</option>
     <option value="divide">/</option>
   </select>
-  Число 2: <input type="text" name="number2" value="<?php echo $number2 ?>">
+  Число 2: <input type="text" name="number2" value="<?php echo $number2; ?>">
   <button type="submit">=</button>
   <?php echo calculator($number1, $number2, $operation);?>
 </form>
